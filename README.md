@@ -7,7 +7,7 @@ to run vcf2vertical.pl type:
 cat PTH/TO/VCS/test.vcf | vcf2vertical.pl > test.converted.genotype.tab
 ```
 
-to run snp_coverage.pl:
+to run snp_coverage.pl type:
 ```
 perl snp_coverage.pl test.converted.genotype.tab
 ```
