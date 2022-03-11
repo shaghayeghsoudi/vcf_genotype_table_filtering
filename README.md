@@ -1,9 +1,16 @@
-# vcf_genotype_table_filtering
+# vcf and genotype table filtering
 This repository contains scripts that 1) does vcf file post-filtering (such as DP, GQ, etc) and converts vcfs into genotype table and 2) extra filtering steps on genotype tables filtering such as MAF 
 
 
-to run vcf2vertical.pl type :
+to run vcf2vertical.pl type:
 ```
-cat PTH/TO/VCS/my.test.vcf | vcf2vertical.pl > my.test.converted.genotype.tabletab
+cat PTH/TO/VCS/test.vcf | vcf2vertical.pl > test.converted.genotype.tab
 ```
 
+to run snp_coverage.pl:
+```
+perl snp_coverage.pl test.converted.genotype.tab
+```
+
+It will produce 2 output files; genotype table (test.converted.genotype.tab.table)
+and summary table (test.converted.genotype.tab.table.summary)
