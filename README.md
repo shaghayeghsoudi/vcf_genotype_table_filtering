@@ -1,5 +1,9 @@
 # vcf_genotype_table_filtering
-This repository contains scripts that do vcf file post filtering and convert vcfs into genotype table and do furthering genotype tables filtering such as MAF 
+This repository contains scripts that 1) does vcf file post-filtering (such as DP, GQ, etc) and converts vcfs into genotype table and 2) extra filtering steps on genotype tables filtering such as MAF 
 
 
-vcf2vertical.pl does post-filtering on vcf file such as genotype quality, mapping quality and depth of coverage and converts the vcf file into genotype file.
+to run vcf2vertical.pl type :
+```
+cat PTH/TO/VCS/my.test.vcf | vcf2vertical.pl > my.test.converted.genotype.tabletab
+```
+
