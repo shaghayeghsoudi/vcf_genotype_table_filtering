@@ -1,5 +1,5 @@
 # vcf and genotype table filtering
-This repository contains scripts that 1) does vcf file post-filtering (such as DP, GQ, etc) and converts vcfs into genotype table and 2) extra filtering steps on genotype tables filtering such as MAF 
+This repository contains scripts that 1) perform vcf file post-filtering (such as DP, GQ, etc) and converts vcfs into genotype table and 2) perform extra filtering steps on genotype tables filtering such as MAF 
 
 
 to run vcf2vertical.pl type:
